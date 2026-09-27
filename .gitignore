@@ -80,3 +80,13 @@ apps/screenpipe-app-tauri/src-tauri/openblas/
 apps/screenpipe-app-tauri/src-tauri/mlx.metallib
 .serena/
 .worktrees/
+
+# personal analysis artifacts generated from local screen data — do not publish
+docs/plans/*.html
+docs/plans/context-switch-experiment-*/
+
+# direnv: machine-specific toolchain paths / env
+.envrc
+
+# local agent tooling scratch (skills live in .claude/skills/)
+.agents/
